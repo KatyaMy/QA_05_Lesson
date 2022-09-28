@@ -9,10 +9,11 @@ print(f'Total: {r_of_dev(33, 2)}')
 
 
 def tests():
-    assert add(5, 8) == 13, f'Wrong number, actual result is {add(5, 8)}'
-    assert minus(10, 6) == 60, f'Wrong number, actual result is {minus(113, 33)}'
-    assert multi(10, 0) == "Can't divide by zero", "Shouldn't divide by zero"
-    assert devision(85, 28) == 57, f'Wrong number, actual result is {multi(85, 28)}'
-    assert exp(9, 4) == 1, f'Wrong number, actual result is '
+    assert add(2, 3) == 5, f'Wrong number, actual result is {add(5, 8)}'
+    assert minus(113, 33) == 80, f'Wrong number, actual result is {minus(113, 33)}'
+    assert multi(23, 9) == 207, f'Wrong number, actual result is {multi(23, 9)}'
+    assert devision(45, 7) == 6.4, f'Wrong number, actual result is {devision(45, 7)}'
+    assert exp(23, 4) == 279841, f'Wrong number, actual result is {exp(23, 4)}'
+
 
 tests()
