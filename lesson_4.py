@@ -24,7 +24,7 @@
 # def sum_it(x, y):
 #     print(f'Locals: {locals()}')
 #     return x + y
-#
+# #
 # print(f'Inside the function: {sum_it(5, 8)}')
 # print(f'Outside the function: {x + y}')
 # print(f'Globals: {globals()}')
@@ -55,7 +55,7 @@ from math import *
 #
 #
 # print('------Sum list_1 With function and for loop----------')
-list_1 = ['Hi', 'ananas', 2, None, 75, 'pizza', 36, 100]
+# list_1 = ['Hi', 'ananas', 2, None, 75, 'pizza', 36, 100]
 # def filter_and_sum_nums(l):
 #     new_l = []
 #     for i in l:
