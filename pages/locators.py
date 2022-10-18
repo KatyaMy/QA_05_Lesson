@@ -16,3 +16,4 @@ class LoginPageLocators():
 
 class BasePageLocators():
     USER_ICON = (By.CSS_SELECTOR, '.icon-user')
+    # проверка по иконке изем локатор подтверждения регистрации
